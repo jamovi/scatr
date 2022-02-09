@@ -69,7 +69,7 @@ paretoClass <- R6::R6Class(
                 ) +
                 ggplot2::scale_y_continuous(
                     sec.axis = ggplot2::sec_axis(
-                        formula, name = .("Cumalitive Percentage")
+                        formula, name = .("Cumulative Percentage")
                     )
                 ) +
                 ggplot2::labs(x=labels$x, y=labels$y) + 
